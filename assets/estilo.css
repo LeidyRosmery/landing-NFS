@@ -1,0 +1,245 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+#win{
+	text-align: center;
+/*	padding-top: 100px;
+*/}
+#win .clear{
+	clear: both;
+}
+#win .t1{
+	font-family: 'misoregular';
+	font-size: 50px;
+	color: #0074d7;
+	padding: 41px 0 26px 0;
+}
+#win .linea{
+	margin: auto;
+	height: 1px;
+	background: #0074d7;
+	width: 102px;
+	margin-bottom: 26px;
+}
+#win .t2{
+	font-size: 65px;
+	color: #747373;
+	font-family: 'misoregular';
+	line-height: 60px;
+/*	max-width: 600px;
+*/	margin: auto;
+}
+#win .cuadro{
+	margin-top: 40px;
+	background: #f2f2f2 url(flecha.jpg) no-repeat top center;
+	padding-top: 60px;
+
+}
+#win .cuadro .margen{
+	margin: auto;
+	max-width: 980px;
+}
+#win .select {
+	margin: auto;
+	height: 40px;
+	display: table;
+}
+
+#win .select .tab{
+	float: left;
+	width: 150px;
+	height: 40px;
+	background-color: #c2c2c2;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	font-family: 'misoregular';
+	cursor: pointer;
+	overflow: hidden;
+	font-size:22px;
+}
+/*#win .select .tab:first-child{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}*/
+/*#win .select .tab:last-child{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}*/
+#win .select .tab.ac{
+	background: #dd0021;
+	cursor: auto;
+}
+
+#win .iconos{
+	margin-top: 50px;
+	height: 59px;
+}
+#win .row .col{
+	float: left;
+}
+#win .row .col:nth-child(1){
+	width: 10%;
+}
+#win .row .col:nth-child(2){
+	width: 35%;
+}
+#win .row .col:nth-child(3){
+	width: 15%;
+}
+#win .row .col:nth-child(4){
+	width: 15%;
+}
+#win .row .col:nth-child(5){
+	width: 25%;
+}
+
+#win .lista{
+	max-width: 980px;
+	margin: auto;
+	padding-bottom: 50px;
+	display: none;
+}
+#win .listas .lista:first-child{
+	display: block;
+}
+
+#win .row{
+	border-bottom: dashed 1px #cdcdcd;
+	margin-left: 3px;
+    width: 962px;
+}
+
+#win .lista .row{
+	padding: 10px 0px;
+	font-family: Arial;
+	color: #000;
+	font-size: 12px;
+}
+#win .legal{
+	background: #b4b3b3;
+	padding: 25px 23px;
+}
+#win .legal .marco{
+	max-width: 980px;
+	font-family: Arial;
+	font-size: 11px;
+	color: #fff;
+	margin: auto;
+	text-align: left;
+}
+
+/*estiloss del texto adicionla*/
+.bq-text{
+	background: #0076d5;
+	    color: white;
+	    font-size: 2rem;
+	    font-family: 'misoregular';
+	    padding: 3px 4px;
+	    font-weight: bold;
+	    text-align: center;
+}
+ul.option-txt {
+	padding: 0px 111px;
+	    line-height: 21px;
+	    font-size: 1.4rem;
+}
+.txt-add {
+
+}
+
+.head-txt{
+	font-weight: bold;
+    font-size: 1.3em;
+    padding: 20px 0;
+    font-family: misoregular;
+}
+p.txt-nml {
+	padding: 0 80px;
+	/* line-height: 30px; */
+	font-size: 1.4rem;
+	padding-top: 13px;
+	padding-bottom: 0px;
+}
+.txt-qtn{
+	font-family: misoregular;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	display: inline-block;
+	font-weight: 700;
+	color: #252525;
+	padding-left: 40px;
+}
+/*fin de estiloss del texto adicionla*/
+@media (max-width: 600px){
+	#win{
+		padding-top: 40px;
+	}
+	#win .t1{
+
+		font-size: 23px;
+
+		padding: 0px;
+		padding-bottom: 20px;
+	}
+	#win .linea{
+		margin: auto;
+		height: 1px;
+		background: #da291c;
+		width: 102px;
+		margin-bottom: 26px;
+	}
+	#win .t2{
+		font-size: 30px;
+
+		line-height: 37px;
+		width: calc(100% - 30px);
+
+	}
+
+	#win .iconos{
+		display:none;
+	}
+	#win .lista .row .col{
+		float: none;
+
+		background-repeat: no-repeat;
+		background-size: 30px 30px;
+		min-height: 30px;
+		margin: 5px 20px;
+		padding-left: 40px;
+		text-align: left;
+		line-height: 30px;
+		width: 100%;
+	}
+
+	#win .row .col:nth-child(1){
+		background-image: url(1.jpg);
+	}
+	#win .row .col:nth-child(2){
+		background-image: url(2.jpg);
+	}
+	#win .row .col:nth-child(3){
+		background-image: url(3.jpg);
+	}
+	#win .row .col:nth-child(4){
+		background-image: url(4.jpg);
+	}
+	#win .row .col:nth-child(5){
+		background-image: url(5.jpg);
+	}
+
+
+	#win .row .col{
+		float: left;
+	}
+}
