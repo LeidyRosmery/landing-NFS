@@ -59,6 +59,11 @@ body {
   margin: 0px;
 }
 
+.container {
+  width: 100%!important;
+  margin: 0!important;
+}
+
 #win {
   text-align: center;
   /*	padding-top: 100px;
@@ -69,9 +74,10 @@ body {
   clear: both;
 }
 
-#win .t1 {
+.head-pag .t1 {
   font-family: 'misoregular';
   font-size: 50px;
+  text-align: center;
   color: #0074d7;
   padding: 41px 0 26px 0;
 }
@@ -218,6 +224,86 @@ body {
 
 /*estiloss del texto adicionla*/
 
+.contenedor {
+  overflow: hidden;
+}
+
+.item-ctn-txt {
+  padding: 10px 70px;
+}
+
+.no-pd {
+  padding: 0;
+}
+
+div.diagonal3 {
+  background:#0076d5;
+  color: #0076d5;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 432px; */
+  /* height: 432px; */
+  padding: 4px;
+  position: relative;
+  /* margin: 30px; */
+  float: left;
+}
+
+div.inside {
+  background: #fff;
+  color: #0076d5;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 89.3vh;
+  height: 31vh;
+  padding: 10px;
+  position: relative;
+}
+
+
+#contendedor-1 div.diagonal3:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 80px solid #0076d5;
+  border-right: 80px solid transparent;
+  width: 0;
+  z-index: 1;
+}
+
+#contendedor-1 div.inside:before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  border-bottom: 74px solid #fff;
+  border-right: 74px solid transparent;
+  width: 0;
+  z-index: 2;
+}
+
+
+#contendedor-2 div.diagonal3:before {
+  content: '';
+  position: absolute;
+  bottom: 160px;
+  left: 581px;
+  border-top: 80px solid #0076d5;
+  border-left: 80px solid transparent;
+  width: 0;
+  z-index: 1;
+}
+
+#contendedor-2 div.inside:before {
+  content: '';
+  position: absolute;
+  bottom: 158px;
+  left: 587px;
+  border-top: 74px solid #fff;
+  border-left: 74px solid transparent;
+  width: 0;
+  z-index: 2;
+}
+
 .bq-text {
   background: #0076d5;
   color: white;
@@ -229,9 +315,11 @@ body {
 }
 
 ul.option-txt {
-  padding: 0px 111px;
   line-height: 21px;
+  padding-left: 65px;
   font-size: 1.4rem;
+  padding-top: 3px;
+  color: #252525;
 }
 
 .txt-add {}
@@ -244,21 +332,27 @@ ul.option-txt {
 }
 
 p.txt-nml {
-  padding: 0 80px;
+  padding: 0 57px;
   /* line-height: 30px; */
+  /* line-height: 30px; */
+  color: #252525;
   font-size: 1.4rem;
   padding-top: 13px;
   padding-bottom: 0px;
 }
 
+#pad {
+  padding-right: 0;
+}
+
 .txt-qtn {
   font-family: misoregular;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 2.5rem;
   display: inline-block;
   font-weight: 700;
   color: #252525;
-  padding-left: 40px;
+  padding-left: 17px;
 }
 
 @media screen and (min-width: 992px) {}
@@ -314,8 +408,9 @@ p.txt-nml {
     padding-left: 8px;
   }
   p.txt-nml {
-    padding: 0;
-    text-align: justify;
+    padding: 0 50px;
+    /* line-height: 30px; */
+    font-size: 1.4rem;
     padding-top: 13px;
     padding-bottom: 0px;
   }
