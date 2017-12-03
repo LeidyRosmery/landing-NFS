@@ -59,11 +59,6 @@ body {
   margin: 0px;
 }
 
-.container {
-  width: 100%!important;
-  margin: 0!important;
-}
-
 #win {
   text-align: center;
   /*	padding-top: 100px;
@@ -240,7 +235,7 @@ div.diagonal3 {
   background:#0076d5;
   color: #0076d5;
   font-family: Arial, Helvetica, sans-serif;
-  /* width: 432px; */
+   width: 100%;
   /* height: 432px; */
   padding: 4px;
   position: relative;
@@ -252,8 +247,7 @@ div.inside {
   background: #fff;
   color: #0076d5;
   font-family: Arial, Helvetica, sans-serif;
-  width: 89.3vh;
-  height: 31vh;
+  height: 26vh;
   padding: 10px;
   position: relative;
 }
@@ -262,7 +256,7 @@ div.inside {
 #contendedor-1 div.diagonal3:before {
   content: '';
   position: absolute;
-  bottom: 0;
+  top: 155px;
   left: 0;
   border-bottom: 80px solid #0076d5;
   border-right: 80px solid transparent;
@@ -273,7 +267,7 @@ div.inside {
 #contendedor-1 div.inside:before {
   content: '';
   position: absolute;
-  bottom: -4px;
+  top: 158px;
   left: -4px;
   border-bottom: 74px solid #fff;
   border-right: 74px solid transparent;
@@ -316,7 +310,7 @@ div.inside {
 
 ul.option-txt {
   line-height: 21px;
-  padding-left: 65px;
+  padding-left: 75px;
   font-size: 1.4rem;
   padding-top: 3px;
   color: #252525;
@@ -332,7 +326,7 @@ ul.option-txt {
 }
 
 p.txt-nml {
-  padding: 0 57px;
+  padding-left: 57px;
   /* line-height: 30px; */
   /* line-height: 30px; */
   color: #252525;
@@ -341,7 +335,7 @@ p.txt-nml {
   padding-bottom: 0px;
 }
 
-#pad {
+.pad {
   padding-right: 0;
 }
 
