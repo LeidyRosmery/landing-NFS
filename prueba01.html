@@ -8,8 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="http://www.sodimac.com.pe/static/styles/content.min.css?vid=3322">
-  <link rel="stylesheet" type="text/css" href="http://www.sodimac.com.pe/static/categorias/contenidoEstatido/cybertips/assets/css/cybertip.css">
-  <link rel="stylesheet" href="assets/estilo.css">
+<link rel="stylesheet" href="assets/estilo.css">
 </head>
 
 <body>
@@ -32,25 +31,25 @@
                           <span class="bq-text"> 1. </span>
                           <p class="txt-qtn">¿Por qué es importante llenar la encuesta NPS?</p>
                           <p class="txt-nml pad">Porque calificando tu experiencia de compra, nos ayudas a mejorar nuestro servicio.</p>
-                        <div class="row">
-                          <div class="col-xs-6 col-md-6 col-lg-6 no-pd">
-                            <p class="txt-nml pad">1.Experiencia de compra en tienda :</p>
-                            <ul class="option-txt">
-                              <li> - Infraestructura de la tienda</li>
-                              <li> - Calidad de productos</li>
-                              <li> - Servicios de nuestro asesor de tienda</li>
-                              <li> - Servicios de nuestro asesor de caja</li>
-                            </ul>
+                          <div class="">
+                            <div class="col-xs-6 col-md-6 col-lg-6 no-pd">
+                              <p class="txt-nml pad">1.Experiencia de compra en tienda :</p>
+                              <ul class="option-txt">
+                                <li> - Infraestructura de la tienda</li>
+                                <li> - Calidad de productos</li>
+                                <li> - Servicios de nuestro asesor de tienda</li>
+                                <li> - Servicios de nuestro asesor de caja</li>
+                              </ul>
+                            </div>
+                            <div class="col-xs-6 col-md-6 col-lg-6 no-pd">
+                              <p class="txt-nml">2 .Experiencia de compra <span style="font-style:italic ; font-size:13px">online</span> :</p>
+                              <ul class="option-txt">
+                                <li> - Facilidad para navegar</li>
+                                <li> - Informacion inportante del producto</li>
+                                <li> - Satisfaccion del servicio de despacho</li>
+                              </ul>
+                            </div>
                           </div>
-                          <div class="col-xs-6 col-md-6 col-lg-6 no-pd">
-                            <p class="txt-nml">2 .Experiencia de compra <span style="font-style:italic">online</span> :</p>
-                            <ul class="option-txt">
-                              <li> - Facilidad para navegar</li>
-                              <li> - Informacion inportante del producto</li>
-                              <li> - Satisfaccion del servicio de despacho</li>
-                            </ul>
-                          </div>
-                        </div>
                         </div>
                       </div>
                     </div>
@@ -61,7 +60,7 @@
                     <div class="diagonal3">
                       <div class="inside" id="second">
                         <div class="item-txt-2">
-                        <span class="bq-text"> 2. </span>
+                          <span class="bq-text"> 2. </span>
                           <p class="txt-qtn">¿Cómo lleno la encuesta NPS?</p>
                           <p class="txt-nml">Tiene dos modalidades para llenarlo.</p>
                           <ul class="option-txt">
@@ -80,51 +79,57 @@
             </div>
           </div>
           <!--PREGUNTAS -->
-          <div class="ventaPreguntas">
+          <div id="accordion" role="tablist" aria-multiselectable="true" class="ventaPreguntas">
             <!--MODULE -->
             <div class="modAccordion">
               <!--ITEM 01 -->
-              <div class="itemAccord">
-                <div class="bloque-b" data-toggle="collapse" data-target="#demo2">
-                    <h5 class="pregunta pregunta01">¿Por qué es importante llenar la encuesta NPS?</h5>
+              <div class="itemAccord card">
+                <div class="card-header bloque-b" role="tab" id="headingOne">
+                  <h5 class="mb-0 pregunta pregunta01">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">  ¿Por qué es importante llenar la encuesta NPS?</a>
+                  </h5>
                 </div>
-                <div id="demo2" class="collapse in">
-                  <p>Porque calificando tu experiencia de compra, nos ayudas a mejorar nuestro servicio.</p>
-                  <div class="row">
-                    <div class="sub-col col-xs-12 col-md-6 col-sm-6 col-lg-6 ">
-                      <p class="">1.Experiencia de compra en tienda :</p>
-                      <ul class="items">
-                        <li> - Infraestructura de la tienda</li>
-                        <li> - Calidad de productos</li>
-                        <li> - Servicios de nuestro asesor de tienda</li>
-                        <li> - Servicios de nuestro asesor de caja</li>
-                      </ul>
-                    </div>
-                    <div class="sub-col col-xs-12 col-md-6 col-sm-6 col-lg-6 online ">
-                      <p class="">2 .Experiencia de compra <span style="display: inline ;font-style:italic">online</span>:</p>
-                      <ul class="items">
-                        <li> - Facilidad para navegar</li>
-                        <li> - Informacion inportante del producto</li>
-                        <li> - Satisfaccion del servicio de despacho</li>
-                      </ul>
+                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-block">
+                    <p>Porque calificando tu experiencia de compra, nos ayudas a mejorar nuestro servicio.</p>
+                    <div class="row">
+                      <div class="sub-col col-xs-12 col-md-6 col-sm-6 col-lg-6 ">
+                        <p class="">1.Experiencia de compra en tienda :</p>
+                        <ul class="items">
+                          <li> - Infraestructura de la tienda</li>
+                          <li> - Calidad de productos</li>
+                          <li> - Servicios de nuestro asesor de tienda</li>
+                          <li> - Servicios de nuestro asesor de caja</li>
+                        </ul>
+                      </div>
+                      <div class="sub-col col-xs-12 col-md-6 col-sm-6 col-lg-6 online ">
+                        <p class="">2 .Experiencia de compra <span style="display: inline ;font-style:italic ;font-size:18px">online</span>:</p>
+                        <ul class="items">
+                          <li> - Facilidad para navegar</li>
+                          <li> - Informacion inportante del producto</li>
+                          <li> - Satisfaccion del servicio de despacho</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-
                 </div>
               </div>
               <!--ITEM 02 -->
-              <div class="itemAccord">
-                <div class="bloque-a" data-toggle="collapse" data-target="#demo1">
-                    <h5 class="pregunta pregunta02">¿Cómo lleno la encuesta NPS?</h5>
+              <div class="itemAccord card">
+                <div class="card-header bloque-a" role="tab" id="headingTwo">
+                  <h5 class="mb-0 pregunta pregunta02">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">¿Cómo lleno la encuesta NPS?</a>
+                  </h5>
                 </div>
-                <div id="demo1" class="collapse in">
-                  <p>Tiene dos modalidades para llenarlo.</p>
-                  <ul class="">
-                    <li> 1. Invitación que se te envía al correo después de tu compra.</li>
-                    <li> 2. Entrando en el siguiente enlace: <a href="http://www.sodimac.com.pe/tuopinion"> www.sodimac.com/tuopinion</a></li>
-                  </ul>
+                <div id="collapseTwo" class="collapse " role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-block">
+                    <p>Tiene dos modalidades para llenarlo.</p>
+                    <ul class="">
+                      <li> 1. Invitación que se te envía al correo después de tu compra.</li>
+                      <li> 2. Entrando en el siguiente enlace: <a href="http://www.sodimac.com.pe/tuopinion"> www.sodimac.com/tuopinion</a></li>
+                    </ul>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -887,7 +892,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://www.sodimac.com.pe/static/script/min/plugin/content.min.js?vid=3322"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://www.sodimac.com.pe/static/categorias/contenidoEstatido/cybertips/assets/js/cybertip.js"></script>
   <script type="text/javascript" src="assets/main.js">
   </script>
 </body>
