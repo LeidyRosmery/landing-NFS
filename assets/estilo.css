@@ -343,7 +343,7 @@ p.txt-nml {
 }
 .collapse {
 
-    min-width: 526px;
+    min-width: 500px;
 }
 /*********************************************************************
 *** PREGUNTAS ********************************************************
@@ -598,6 +598,9 @@ p.txt-nml {
   }
   .online {
     padding-top: 15px;
+  }
+  .collapse {
+      min-width: auto;
   }
 }
 
