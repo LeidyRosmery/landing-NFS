@@ -130,24 +130,6 @@ body {
   font-size: 22px;
 }
 
-/*#win .select .tab:first-child{
-	-webkit-border-top-left-radius: 10px;
-	-webkit-border-bottom-left-radius: 10px;
-	-moz-border-radius-topleft: 10px;
-	-moz-border-radius-bottomleft: 10px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-}*/
-
-/*#win .select .tab:last-child{
-	-webkit-border-top-right-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-	-moz-border-radius-topright: 10px;
-	-moz-border-radius-bottomright: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-}*/
-
 #win .select .tab.ac {
   background: #dd0021;
   cursor: auto;
@@ -352,12 +334,12 @@ p.txt-nml {
 
 .txt-qtn {
   font-family: 'misoregular';
-      font-size: 2.1rem;
-      line-height: 2.5rem;
-      padding-left: 20px;
-      display: inline-block;
-      font-weight: 700;
-      color: #252525;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  padding-left: 20px;
+  display: inline-block;
+  font-weight: 700;
+  color: #252525;
 }
 
 /*********************************************************************
@@ -383,8 +365,8 @@ p.txt-nml {
 
 /* - ACCORDION - */
 
-.ventaPreguntas .modAccordion , .ventaPreguntas .modAccordion span {
-font-size: 14px;
+.ventaPreguntas .modAccordion, .ventaPreguntas .modAccordion span {
+  font-size: 14px;
   color: #333333;
   line-height: 20px;
   display: block;
@@ -405,21 +387,25 @@ font-size: 14px;
 .ventaPreguntas .modAccordion .itemAccord .respuesta {
   display: none;
 }
-.ventaPreguntas .modAccordion .itemAccord h5 a{
+
+.ventaPreguntas .modAccordion .itemAccord h5 a {
   text-decoration: none;
   display: flex;
   align-items: center;
 }
-.ventaPreguntas .modAccordion .itemAccord h5 a:focus{
+
+.ventaPreguntas .modAccordion .itemAccord h5 a:focus {
   text-decoration: none;
   color: #0079d7;
 }
-.plus{
+
+.plus {
   color: #0072ce;
-    font-size: 12px;
-    transition: all 3s;
-    padding: 0 13px;
+  font-size: 12px;
+  transition: all 3s;
+  padding-right: 13px;
 }
+
 .ventaPreguntas .modAccordion .itemAccord h5 {
   font-family: "MisoBold", Arial, Helvetica, sans-serif;
   font-size: 19px;
@@ -428,7 +414,7 @@ font-size: 14px;
   color: #0072ce;
   cursor: pointer;
   display: block;
-  padding: 20px 30px 10px 0px;
+  padding: 10px 30px 10px 0px;
 }
 
 .ventaPreguntas .modAccordion .itemAccord h5.icoPlus {
@@ -494,11 +480,21 @@ font-size: 14px;
   }
   .margin-row {
     margin: 0 auto;
-    width: 690px;
+    width: 710px;
+    padding: 30px 40px;
+    border: solid #0076D5 3px;
+    border-top-left-radius: 90px 90px;
+    border-bottom-right-radius: 90px 90px;
+  }
+  div.diagonal3 {
+    background: none;
+  }
+  #contendedor-1 div.diagonal3:before {
+    border-bottom: none;
+    border-right: none;
   }
   .no-pd {
     padding: 0;
-    padding-bottom: 20px;
   }
   p.txt-nml {
     padding-left: 47px;
@@ -510,36 +506,20 @@ font-size: 14px;
   div#first {
     width: 100%;
   }
+  div.inside {
+    height: auto;
+    width: 100%;
+  }
   /*div#second {
     height: 20vh;
   }*/
-  #contendedor-2 div.diagonal3:after {
-    content: '';
-    position: absolute;
-    top: 147px;
-    left: 0;
-    border-bottom: 80px solid #0076d5;
-    border-right: 80px solid transparent;
-    width: 0;
-    z-index: 1;
-  }
-  #contendedor-2 div.diagonal3:before {
+  div.diagonal3:before {
     border-top: none;
     border-left: none;
   }
-  #contendedor-2 div.inside:before {
+  div.inside:before {
     border-top: none;
     border-left: none;
-  }
-  #contendedor-2 div.inside:after {
-    content: '';
-    position: absolute;
-    top: 150px;
-    left: -4px;
-    border-bottom: 74px solid #fff;
-    border-right: 74px solid transparent;
-    width: 0;
-    z-index: 2;
   }
   .txt-qtn {
     padding-left: 17px;
@@ -553,6 +533,7 @@ font-size: 14px;
   #win .row {
     width: 100%;
   }
+
   #win .select {
     margin: auto;
     height: 40px;
@@ -566,14 +547,14 @@ font-size: 14px;
 }
 
 @media screen and (max-width: 949px) {
-  .col-item {
-    display: none;
-  }
   .ventaPreguntas {
     text-align: justify;
     display: block;
     margin: 0 auto;
     padding: 0 120px;
+  }
+  .ct-enc.text-left{
+    display: none;
   }
 }
 
@@ -642,6 +623,12 @@ font-size: 14px;
 @media screen and (max-width: 352px) {
   .ventaPreguntas {
     padding: 0;
+  }
+  .ventaPreguntas .modAccordion, .ventaPreguntas .modAccordion span {
+    font-size: 13px;
+  }
+  .ventaPreguntas .modAccordion .itemAccord h5{
+    font-size: 21px;
   }
 }
 
