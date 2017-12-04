@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/awesome/fontawesome-webfont.eot');
-  src: url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('../awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
+  src: url('fonts/awesome/fontawesome-webfont.eot');
+  src: url('fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/awesome/fontawesome-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal
 }
 
 @font-face {
   font-family: 'iconvtc';
-  src: url('../fonts/iconvtc/vtc.eot');
-  src: url('../fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.ttf') format('truetype'), url('../fonts/iconvtc/vtc.svg') format('svg');
+  src: url('fonts/iconvtc/vtc.eot');
+  src: url('fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('fonts/iconvtc/vtc.woff') format('woff'), url('fonts/iconvtc/vtc.woff') format('woff'), url('fonts/iconvtc/vtc.ttf') format('truetype'), url('fonts/iconvtc/vtc.svg') format('svg');
   font-weight: normal;
   font-style: normal
 }
 
 @font-face {
   font-family: 'miso';
-  src: url('../fonts/miso/miso-webfont.eot');
-  src: url('../fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso/miso-webfont.woff2') format('woff2'), url('../fonts/miso/miso-webfont.woff') format('woff'), url('../fonts/miso/miso-webfont.ttf') format('truetype'), url('../fonts/miso/miso-webfont.svg#miso') format('svg');
+  src: url('fonts/miso/miso-webfont.eot');
+  src: url('fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso/miso-webfont.woff2') format('woff2'), url('fonts/miso/miso-webfont.woff') format('woff'), url('fonts/miso/miso-webfont.ttf') format('truetype'), url('fonts/miso/miso-webfont.svg#miso') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,24 +32,24 @@
 
 @font-face {
   font-family: 'misobold';
-  src: url('../fonts/miso-bold/miso-bold-webfont.eot');
-  src: url('../fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('../fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('../fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
+  src: url('fonts/miso-bold/miso-bold-webfont.eot');
+  src: url('fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'misolight';
-  src: url('../fonts/miso-light/miso-light-webfont.eot');
-  src: url('../fonts/miso-light/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-light/miso-light-webfont.woff2') format('woff2'), url('../fonts/miso-light/miso-light-webfont.woff') format('woff'), url('../fonts/miso-light/miso-light-webfont.ttf') format('truetype'), url('../fonts/miso-light/miso-light-webfont.svg#misolight') format('svg');
+  src: url('fonts/miso-light/miso-light-webfont.eot');
+  src: url('fonts/miso-light/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso-light/miso-light-webfont.woff2') format('woff2'), url('fonts/miso-light/miso-light-webfont.woff') format('woff'), url('fonts/miso-light/miso-light-webfont.ttf') format('truetype'), url('fonts/miso-light/miso-light-webfont.svg#misolight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'hand';
-  src: url('../fonts/handsean/handsean-webfont.eot');
-  src: url('../fonts/handsean/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handsean/handsean-webfont.woff2') format('woff2'), url('../fonts/handsean/handsean-webfont.woff') format('woff'), url('../fonts/handsean/handsean-webfont.ttf') format('truetype'), url('../fonts/handsean/handsean-webfont.svg#handsean') format('svg');
+  src: url('fonts/handsean/handsean-webfont.eot');
+  src: url('fonts/handsean/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/handsean/handsean-webfont.woff2') format('woff2'), url('fonts/handsean/handsean-webfont.woff') format('woff'), url('fonts/handsean/handsean-webfont.ttf') format('truetype'), url('fonts/handsean/handsean-webfont.svg#handsean') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -254,7 +254,7 @@ div.inside {
   background: #fff;
   color: #0076d5;
   font-family: Arial, Helvetica, sans-serif;
-  height: 32vh;
+  height: 26vh;
   padding: 10px;
   position: relative;
 }
@@ -401,6 +401,10 @@ p.txt-nml {
   padding-left: 20px;
 }
 
+.ventaPreguntas .modAccordion .itemAccord .respuesta {
+  display: none;
+}
+
 .ventaPreguntas .modAccordion .itemAccord h5 {
   font-family: "MisoBold", Arial, Helvetica, sans-serif;
   font-size: 19px;
@@ -486,7 +490,7 @@ p.txt-nml {
     padding-left: 47px;
   }
   div.inside {
-    height: 32vh;
+    height: 30vh;
   }
   div#first {
     width: 100%;
@@ -574,7 +578,13 @@ p.txt-nml {
   }
 }
 
-@media screen and (max-width: 560px) {}
+@media screen and (max-width: 560px) {
+  .ctn-txt-add.text-center {
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 12px;
+  }
+}
 
 /*Mobile 300+*/
 
@@ -591,11 +601,13 @@ p.txt-nml {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 352px) {
   .ventaPreguntas {
-    padding: 0 ;
+    padding: 0;
   }
 }
+
 /****************************************************/
 
 /***************************************************
@@ -608,8 +620,9 @@ p.txt-nml {
     padding-top: 40px;
   }
   .head-pag .t1 {
-    font-size: 23px;
+    font-size: 32px;
     padding: 0px;
+    font-family: misobold;
     padding-bottom: 20px;
   }
   .head-pag .linea {
