@@ -407,10 +407,18 @@ font-size: 14px;
 }
 .ventaPreguntas .modAccordion .itemAccord h5 a{
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .ventaPreguntas .modAccordion .itemAccord h5 a:focus{
   text-decoration: none;
   color: #0079d7;
+}
+.plus{
+  color: #0072ce;
+    font-size: 12px;
+    transition: all 3s;
+    padding: 0 13px;
 }
 .ventaPreguntas .modAccordion .itemAccord h5 {
   font-family: "MisoBold", Arial, Helvetica, sans-serif;
