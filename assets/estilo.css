@@ -352,7 +352,12 @@ p.txt-nml {
   background: #fff;
   display: none;
 }
-
+.card-block {
+    border-bottom: 1px #dd0021 dashed;
+    margin-top: 16px;
+    padding: 10px 0;
+    border-top: 1px #dd0021 dashed;
+}
 .ventaPreguntas .banPreguntas {
   background: transparent url(../css/images/preguntas/banner.jpg) no-repeat 50% 0%;
   display: block;
@@ -378,7 +383,6 @@ p.txt-nml {
 
 .ventaPreguntas .modAccordion .itemAccord {
   display: block;
-  border-bottom: 1px #dd0021 dashed;
   padding-bottom: 10px;
 }
 
@@ -391,24 +395,30 @@ p.txt-nml {
 }
 
 .ventaPreguntas .modAccordion .itemAccord h5 a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
+      text-decoration: none;
+      display: flex;
+      font-size: 22px;
+      padding: 0 30px;
+      align-items: center;
+      color: #fff;
+      justify-content: space-between;
 }
 
 .ventaPreguntas .modAccordion .itemAccord h5 a:focus {
   text-decoration: none;
-  color: #0079d7;
+  color: #fff;
 }
 
 .plus {
-  color: #fff;
-  font-size: 12px;
-  transition: all 3s;
-  padding: 6px;
-  margin-right: 13px;
-  background: #0072ce;
+  background: #fff;
+      font-size: 12px;
+      transition: all 3s;
+      padding: 6px;
+      color: #0072ce;
+      border-radius: 4px;
 }
+
+
 
 .ventaPreguntas .modAccordion .itemAccord h5 {
   font-family: "MisoBold", Arial, Helvetica, sans-serif;
@@ -416,9 +426,11 @@ p.txt-nml {
   font-weight: normal;
   line-height: 23px;
   color: #0072ce;
+  background: #0072ce;
   cursor: pointer;
   display: block;
-  padding: 10px 30px 10px 0px;
+  border-radius: 4px;
+  padding: 15px 0px;
 }
 
 .ventaPreguntas .modAccordion .itemAccord h5.icoPlus {
