@@ -23,7 +23,7 @@
           <div class="ct-enc text-left">
             <div class="item-ctn-txt">
               <div class="row margin-row">
-                <div class="col-item col-md-6 col-sm-6 hd-xs col-lg-6 no-pd">
+                <div class="col-interna col-item col-md-6 col-sm-6 hd-xs col-lg-6 no-pd">
                   <div id="contendedor-1" class="contenedor">
                     <div class="diagonal3">
                       <div class="inside" id="first">
@@ -31,7 +31,7 @@
                           <span class="bq-text"> 1. </span>
                           <p class="txt-qtn">¿Por qué es importante llenar la encuesta NPS?</p>
                           <p class="txt-nml pad">Porque calificando tu experiencia de compra, nos ayudas a mejorar nuestro servicio.</p>
-                          <div class="">
+                          <div class="row " style="margin:0">
                             <div class="col-xs-6 col-md-6 col-lg-6 no-pd">
                               <p class="txt-nml pad">1.Experiencia de compra en tienda :</p>
                               <ul class="option-txt">
@@ -55,7 +55,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-item col-md-6 col-sm-6 hd-xs col-lg-6 no-pd">
+                <div class="col-interna col-item col-md-6 col-sm-6 hd-xs col-lg-6 no-pd">
                   <div id="contendedor-2" class="contenedor">
                     <div class="diagonal3">
                       <div class="inside" id="second">
@@ -894,6 +894,17 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript" src="assets/main.js">
   </script>
+  <script>
+$(document).ready(function() {
+    var heights = $(".inside").map(function() {
+        return $(this).height();
+    }).get(),
+
+    maxHeight = Math.max.apply(null, heights);
+
+    $(".inside").height(maxHeight);
+});
+</script>
 </body>
 
 </html>
